@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="note.css">
+    <title>Note Website</title>
+</head>
+<body>
+    <div class="container">
+        <div class="note">
+            <div class="btn">
+                <button id="addNote">Add Note <br>➕</button>
+            </div>
+            <div class="newNotes">
+
+            </div>
+        </div>
+        <div class="addForm">
+            <div class="head">
+                <h2>Add a Note</h2>
+                <button class="icon">✖</button>
+            </div>
+            <div class="inputs">
+                <p>Title</p>
+                <input type="text" id="title" value=" ">
+            </div>
+            <div class="inputs">
+                <p>Description </p>
+                <textarea rows="5px" cols="20" value=" "  id="description"></textarea>
+            </div>
+            <button id="addBtn">Add Note</button>
+        </div>
+    </div>
+ 
+    <script src="note.js"></script>
+</body>
+</html>
